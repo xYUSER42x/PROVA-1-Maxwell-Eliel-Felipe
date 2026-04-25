@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pet-SoftWare – Sistema de gestão para clínicas veterinárias e pet shops." />
+  <meta name="author" content="Eliel Felipe de Lima Novaes Santana" />
+  <title> Pet-SoftWare </title>
+  <style>
+    
+    header { background-color: #150764; color: #f0f0f0; text-align: center; padding: 20px; }
+    nav { background-color: #222222; padding: 10px; text-align: center; }
+    nav a { color: #ffffff; text-decoration: none; margin: 0 10px; font-weight: bold; }
+    fieldset { max-width: 400px; }
+    footer { background-color: #050722; color: #9c9c9c; text-align: center; padding: 15px; }
+  
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Nome: Eliel Felipe de Lima Novaes Santana -->
+  <!-- RA: 5177469 -->
+
+  <header>
+    
+    <h1> Pet-SoftWare </h1>
+
+    <p> A gestão do seu Pet Shop na palma da mão </p>
+
+  </header>
+
+  <nav>
+
+    <a href="#sobre">Sobre o Sistema </a> |
+    <a href="#demo">Demonstração </a> |
+    <a href="#planos">Planos </a> |
+    <a href="#contato">Fale Conosco </a>
+
+  </nav>
+
+  <main>
+
+    <section id="sobre">
+
+      <h2> Sobre o Sistema </h2>
+
+      <p> Nosso sistema oferece agendamento, prontuário veterinário eletrônico e controle de estoque de forma integrada. </p>
+      <figure>
+
+        <img src="sispet-graficos-1.png" alt="Dashboard principal do sistema Pethia com gráficos de agendamento" width="500" />
+        <figcaption>Figura 1: Dashboard interativo do sistema.</figcaption>
+      
+    </figure>
+
+    </section>
+
+    <section id="demo">
+
+      <h2> Demonstração </h2>
+
+      <p> Veja como é simples cadastrar um novo paciente: </p>
+      <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/GhRHBTI8SR4"
+              title="Demonstração Pet-SoftWare"
+              allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="planos">
+
+      <h2> Planos e Preços </h2>
+      
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Plano</th>
+            <th>Funcionalidades</th>
+            <th>Valor Mensal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Básico</td>
+            <td>Agendamento e Controle de Caixa</td>
+            <td>R$ 80,90</td>
+          </tr>
+          <tr>
+            <td>Pro</td>
+            <td>Prontuário, Estoque e Lembretes via WhatsApp</td>
+            <td>R$ 157,00</td>
+          </tr>
+          <tr>
+            <td>Premium</td>
+            <td>Múltiplas Filiais e Relatórios Avançados</td>
+            <td>R$ 246,80</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contato">
+
+      <h2> Fale Conosco </h2>
+      
+      <form action="" method="post">
+        <fieldset>
+          <legend> Dados para Contato </legend>
+
+          <label for="nome">Nome Completo:</label> <br/>
+          <input type="text" id="nome" name="nome" required/>
+          
+          <br/><br/>
+
+          <label for="email">E-mail:</label> <br/>
+          <input type="email" id="email" name="email" required/>
+          
+          <br/><br/>
+
+          <label for="telefone">Telefone:</label> <br/>
+          <input type="tel" id="telefone" name="telefone" required/>
+          
+          <br/><br/>
+
+          <label for="mensagem">Mensagem:</label> <br/>
+          <textarea id="mensagem" name="mensagem" rows="4" cols="40" required> </textarea>
+          
+          <br/><br/>
+
+          <input type="submit" value="Enviar"/>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <p> &copy; 2026 Pet-SoftWare </p>
+  
+</footer>
+
+</body>
+</html>
